@@ -1,0 +1,61 @@
+// Section Hero styles
+
+.lnd-hero {
+	display: grid;
+	// display: flex;
+	grid-template-columns: 1fr;
+
+	&__banner {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		padding-top: 12rem;
+		padding-right: 5rem;
+		padding-bottom: 11rem;
+		padding-left: 10rem;
+		background-image: url(../img/photo-hero.min.jpg);
+		background-image: -webkit-image-set(url(../img/photo-hero.min.jpg) 1x, url(../img/photo-hero@2x.min.jpg) 2x);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	&__overtitle {
+		@extend %overtitle_size_l;
+		@extend %overtitle_light;
+		margin-bottom: 1rem;
+	}
+
+	&__heading {
+		@extend %heading_level_1;
+		@extend %heading_light;
+		margin-bottom: 2rem;
+	}
+
+	&__text {
+		@extend %text_intro;
+		@extend %text_light;
+		width: 50%;
+		margin-bottom: 5rem;
+	}
+
+	// Hero form
+	&__form {
+		width: 27.5rem;
+	}
+
+	&__phone {
+		width: 100%;
+		margin-bottom: 2rem;
+		border-bottom: 0.2rem solid $color-grey-light;
+	}
+
+	&__submit-button {
+		@extend %button_primary;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	&__personal-data {
+		@extend %text_light;
+	}
+}

@@ -1,0 +1,47 @@
+// Fonts
+
+@font-face {
+	font-family: Rouble;
+	src: url(../fonts/rouble.woff2) format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Harmonia Sans';
+	src: url(../fonts/HarmoniaSansProCyr-Black.eot);
+	src: local('Harmonia Sans'), local('HarmoniaSansProCyr-Black'),
+			url(../fonts/HarmoniaSansProCyr-Black.eot?#iefix) format('embedded-opentype'),
+			url(../fonts/HarmoniaSansProCyr-Black.woff2) format('woff2'),
+			url(../fonts/HarmoniaSansProCyr-Black.woff) format('woff'),
+			url(../fonts/HarmoniaSansProCyr-Black.otf) format('opentype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Harmonia Sans';
+	src: url(../fonts/HarmoniaSansProCyr-SemiBd.eot);
+	src: local('Harmonia Sans'), local('HarmoniaSansProCyr-SemiBd'),
+			url(../fonts/HarmoniaSansProCyr-SemiBd.eot?#iefix) format('embedded-opentype'),
+			url(../fonts/HarmoniaSansProCyr-SemiBd.woff2) format('woff2'),
+			url(../fonts/HarmoniaSansProCyr-SemiBd.woff) format('woff'),
+			url(../fonts/HarmoniaSansProCyr-SemiBd.otf) format('opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Harmonia Sans';
+	src: url(../fonts/HarmoniaSansProCyr-Regular.eot);
+	src: local('Harmonia Sans'), local('HarmoniaSansProCyr-Regular'),
+			url(../fonts/HarmoniaSansProCyr-Regular.eot?#iefix) format('embedded-opentype'),
+			url(../fonts/HarmoniaSansProCyr-Regular.woff2) format('woff2'),
+			url(../fonts/HarmoniaSansProCyr-Regular.woff) format('woff'),
+			url(../fonts/HarmoniaSansProCyr-Regular.otf) format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+

@@ -1,0 +1,91 @@
+@import 'gui';
+@import 'fonts';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	font-size: 10px;
+	min-height: 100%;
+	font-family: 'Harmonia Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	hyphens: auto;
+}
+
+main {
+	overflow: inherit;
+
+	@media (max-width: 1024px) {
+		overflow: hidden;
+	}
+}
+
+a,
+body,
+dd,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+li,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-weight: normal;
+	font-variant-numeric: lining-nums;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.lnd-container {
+	max-width: 1170px;
+	margin: 0 auto;
+
+	// @media (max-width: 768px) {
+	// 	max-width: 768px;
+	// 	margin: 0 auto;
+	// }
+
+	// @media (max-width: 414px) {
+	// 	max-width: 414px;
+	// 	margin: 0 auto;
+	// }
+}
+
+.page-container > .box {
+	@media (max-width: 768px) {
+		padding: 0;
+	}
+}
+
+@import 'hero';
+@import 'services';
+
+// @import 'catalog-top';
+
+// @import 'catalog-bot';
+
+// @import 'advantages';
+
+// @import 'choice';
+
+// @import 'consultation';
+
+// @import 'production';
+
+// @import 'achtung';
+
+// @import 'contacts';

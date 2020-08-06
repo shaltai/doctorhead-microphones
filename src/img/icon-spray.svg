@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="132px" viewBox="0 0 135 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-spray</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom_Microphones_1440-Home" transform="translate(-1155.000000, -1329.000000)">
+            <g id="icon-spray" transform="translate(1155.000000, 1330.000000)">
+                <circle id="Oval" fill="#CCEFFF" cx="75" cy="71" r="60"></circle>
+                <path d="M0,120 L120,120 L120,0 L0,0 L0,120 Z M1,119 L119,119 L119,1 L1,1 L1,119 Z" id="Fill-1"></path>
+                <path d="M45.0313,119 L21.0313,119 C14.4043,119 9.0313,113.627 9.0313,107 L9.0313,52 C9.0313,45.373 14.4043,40 21.0313,40 L45.0313,40 C51.6593,40 57.0313,45.373 57.0313,52 L57.0313,107 C57.0313,113.627 51.6593,119 45.0313,119 Z" id="Stroke-3" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <line x1="16" y1="56" x2="57" y2="56" id="Stroke-5" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="9" y1="104" x2="48" y2="104" id="Stroke-7" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M41.5313,32 L24.5313,32 C22.8753,32 21.5313,33.343 21.5313,35 L21.5313,40 L44.5313,40 L44.5313,35 C44.5313,33.343 43.1883,32 41.5313,32 Z" id="Stroke-9" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M37,32 L29,32 L29,26 C29,25.448 29.447,25 30,25 L36,25 C36.553,25 37,25.448 37,26 L37,32 Z" id="Stroke-11" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M48.7793,29.8931 L88.3703,34.1961 C87.1743,36.0081 86.4613,38.1661 86.4613,40.5001 C86.4613,46.8511 91.6093,52.0001 97.9613,52.0001 C104.3113,52.0001 109.4613,46.8511 109.4613,40.5001 C109.4613,40.2551 109.4393,40.0161 109.4243,39.7751 C114.9853,37.9221 119.0003,32.6841 119.0003,26.5001 C119.0003,20.3161 114.9853,15.0781 109.4243,13.2251 C109.4393,12.9841 109.4613,12.7451 109.4613,12.5001 C109.4613,6.1491 104.3113,1.0001 97.9613,1.0001 C91.6093,1.0001 86.4613,6.1491 86.4613,12.5001 C86.4613,14.8341 87.1743,16.9921 88.3703,18.8041 L45.1633,23.5001" id="Stroke-13" stroke="#8C8C8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
