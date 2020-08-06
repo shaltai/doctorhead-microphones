@@ -44,9 +44,12 @@
 	}
 
 	&__phone {
+		@extend .lnd-input_light;
 		width: 100%;
 		margin-bottom: 2rem;
-		border-bottom: 0.2rem solid $color-grey-light;
+		&::placeholder {
+			color: $color-grey-light;
+		}
 	}
 
 	&__submit-button {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-design_fill</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom_Microphones_1440-Home" transform="translate(-1060.000000, -3046.000000)">
+            <g id="icon-design_fill" transform="translate(1060.000000, 3046.000000)">
+                <path d="M82.37,86.46 C71.91,86.46 66.17,81.72 66.17,72.07 C66.17,51.55 99.63,55.75 99.63,26.61 C99.63,7.12 77.12,0 60,0 C26.862915,0 0,26.862915 0,60 C0,93.137085 26.862915,120 60,120 C97,120 120,100.85 120,87.94 C120,78.07 114.83,75.84 107.88,75.84 C97.07,75.84 93,86.46 82.37,86.46 Z" id="Path" fill="#00AEFF" fill-rule="nonzero"></path>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" cx="58.17" cy="24.75" r="11.42"></circle>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" cx="28.74" cy="46.74" r="9.74"></circle>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" cx="31.15" cy="79.36" r="7.89"></circle>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" cx="54.12" cy="99.85" r="5.77"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

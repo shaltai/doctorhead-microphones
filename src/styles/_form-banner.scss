@@ -1,0 +1,67 @@
+// Section Banner with Form styles
+
+.lnd-form-banner {
+	padding-top: 7rem;
+	padding-right: 6rem;
+	padding-bottom: 7rem;
+	padding-left: 6rem;
+	background-image: url(../img/photo-banner-form.min.jpg);
+	background-image: -webkit-image-set(url(../img/photo-banner-form.min.jpg) 1x, url(../img/photo-banner-form@2x.min.jpg) 2x);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	&__info {
+		display: flex;
+		flex-wrap: wrap;
+		width: 50%;
+	}
+
+	&__item {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&__icon {
+		margin-bottom: 2.5rem;
+	}
+
+	&__text {
+		@extend %text_intro;
+		@extend %text_light;
+		&:first-of-type {
+			margin-bottom: 1rem;
+		}
+		&:last-of-type {
+			margin-bottom: 4rem;
+		}
+	}
+
+	// Form
+	&__form {
+		width: 100%;
+	}
+
+	&__inputs {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__phone {
+		@extend .lnd-input_light;
+		width: 28rem;
+		margin-right: 3rem;
+		&::placeholder {
+			color: $color-grey-light;
+		}
+	}
+
+	&__submit-button {
+		@extend %button_light;
+		margin-bottom: 2rem;
+	}
+
+	&__personal-data {
+		@extend %text_light;
+	}
+}

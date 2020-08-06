@@ -1,0 +1,53 @@
+// Section Testimonials styles
+
+.lnd-testimonials {
+	display: flex;
+	padding-top: 20rem;
+	padding-bottom: 14rem;
+	justify-content: space-between;
+}
+
+// Testimonial card
+.lnd-testimonial {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 30%;
+	padding-right: 2rem;
+	padding-bottom: 4rem;
+	padding-left: 2rem;
+	border-radius: 0.5rem;
+	background-color: $color-grey-lightest;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+
+	&__avatar {
+		width: 10rem;
+		margin-top: -5rem;
+		border-radius: $radius;
+	}
+
+	&__date {
+		font-size: 1.5rem;
+		line-height: 1;
+		color: $color-grey;
+		text-align: right;
+	}
+
+	&__heading {
+		@extend %heading_level_4;
+		@extend %heading_dark;
+		margin-bottom: 1rem;
+	}
+
+	&__text {
+		@extend %text_regular;
+		@extend %text_dark;
+	}
+}

@@ -1,0 +1,43 @@
+// Section Description styles
+
+.lnd-description {
+	&__top-row,
+	&__middle-row,
+	&__bottom-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__top-row,
+	&__middle-row {
+		margin-bottom: 8rem;
+	}
+
+	&__top-info,
+	&__bottom-info {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		width: 50%;
+	}
+
+	&__top-info {
+		padding-right: 12rem;
+	}
+
+	&__bottom-info {
+		padding-left: 12rem;
+	}
+
+	&__heading {
+		@extend %heading_level_2;
+		@extend %heading_dark;
+		margin-bottom: 1.5rem;
+	}
+
+	&__text {
+		@extend %text_regular;
+		@extend %text_dark;
+	}
+}

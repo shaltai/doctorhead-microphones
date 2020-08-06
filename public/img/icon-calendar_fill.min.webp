@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-calendar_fill</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom_Microphones_1440-Home" transform="translate(-660.000000, -3046.000000)">
+            <g id="icon-calendar_fill" transform="translate(659.999833, 3046.000000)">
+                <polygon id="Path" fill-rule="nonzero" points="120.000167 0 0.000166695419 0 0.000166695419 120 120.000167 120"></polygon>
+                <path d="M112.310167,18.05 L97.3101667,18.05 L97.3101667,24 C97.3101667,28.9705627 93.2807294,33 88.3101667,33 C83.3396039,33 79.3101667,28.9705627 79.3101667,24 L79.3101667,18.05 L40.6701667,18.05 L40.6701667,24 C40.6701667,28.9705627 36.6407294,33 31.6701667,33 C26.6996039,33 22.6701667,28.9705627 22.6701667,24 L22.6701667,18.05 L7.6701667,18.05 C3.40488405,18.0830179 -0.0275510769,21.5646796 4.26325641e-14,25.83 L4.26325641e-14,105.22 C-0.0131328832,107.271859 0.789914232,109.244817 2.2323627,110.704147 C3.67481117,112.163477 5.63829186,112.989425 7.6901667,113 L112.310167,113 C114.362042,112.989425 116.325522,112.163477 117.767971,110.704147 C119.210419,109.244817 120.013466,107.271859 120.000329,105.22 L120.000329,25.83 C120.013466,23.778141 119.210419,21.8051833 117.767971,20.3458531 C116.325522,18.8865229 114.362042,18.0605748 112.310167,18.05 Z" id="Path" fill="#00AEFF" fill-rule="nonzero"></path>
+                <line x1="88.3301667" y1="10" x2="88.3301667" y2="24" id="Path" stroke="#00AEFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="31.6701667" y1="10" x2="31.6701667" y2="24" id="Path" stroke="#00AEFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" points="28.6701667 65.05 52.1701667 89 91.3301667 49.08"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

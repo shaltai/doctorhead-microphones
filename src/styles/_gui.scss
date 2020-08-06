@@ -64,8 +64,8 @@ $radius: 0.3rem;
 
 	&_level_4 {
 		@extend %heading;
-		font-size: 1.5rem;
-		letter-spacing: 0rem;
+		font-size: 2.5rem;
+		letter-spacing: -0.03rem;
 	}
 
 	&_light {
@@ -168,7 +168,7 @@ $radius: 0.3rem;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 1.4rem 4rem;
+	padding: 1.6rem 4rem;
 	font-weight: 600;
 	font-size: 1.8rem;
 	line-height: 1;
@@ -207,6 +207,7 @@ $radius: 0.3rem;
 	&_secondary {
 		@extend %button;
 		color: white;
+		border: none;
 		background-color: $color-grey-darkest;
 
 		&_outline {
@@ -228,6 +229,42 @@ $radius: 0.3rem;
 			text-decoration: underline;
 			background-color: transparent;
 			color: $color-grey-darkest;
+		}
+		&_blank:hover {
+			color: $color-primary;
+			transition: color 0.5s ease-out;
+		}
+	}
+
+	&_light {
+		@extend %button;
+		color: $color-primary;
+		border: none;
+		background-color: $color-grey-lightest;
+		&:hover {
+			background-color: $color-grey-light;
+			transition: background-color 0.5s ease-out;
+		}
+
+		&_outline {
+			@extend %button;
+			background-color: transparent;
+			color: $color-grey-lightest;
+			border: $color-grey-lightest 0.2rem solid;
+			border-radius: $radius;
+		}
+		&_outline:hover {
+			border: $color-primary 0.2rem solid;
+			color: $color-primary;
+			box-shadow: 0 1rem 1rem rgba(0, 115, 168, 0.24), 0 0 1rem rgba(0, 115, 168, 0.12);
+			transition: all 0.5s ease-out;
+		}
+
+		&_blank {
+			@extend %button;
+			text-decoration: underline;
+			background-color: transparent;
+			color: $color-grey-lightest;
 		}
 		&_blank:hover {
 			color: $color-primary;
@@ -262,22 +299,43 @@ input.lnd-input {
 input[type='text'].lnd-input {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border-bottom: 0.2rem solid $color-grey-dark;
 	background-color: transparent;
+
+	&_dark {
+		color: $color-grey-dark;
+		border-bottom: 0.2rem solid $color-grey-dark;
+	}
+
+	&_light {
+		color: $color-grey-light;
+		border-bottom: 0.2rem solid $color-grey-light;
+	}
 }
 
 input[type='text']:hover.lnd-input {
-	border-bottom: 0.2rem solid $color-grey-darkest;
 	transition: border-bottom 0.5s ease-out;
+	&_dark {
+		border-bottom: 0.2rem solid $color-grey-darkest;
+	}
+	&_light {
+		border-bottom: 0.2rem solid $color-grey-lightest;
+	}
 }
+
 input[type='text']:focus.lnd-input {
 	outline: none;
 	border-bottom: 0.2rem solid $color-primary;
 	transition: border-bottom 0.5s ease-out;
 }
 
-input::placeholder.lnd-input {
-	color: $color-grey-dark;
+input[type='text']::placeholder.lnd-input {
+	transition: color 0.5s ease-out;
+	&_dark {
+		color: $color-grey-dark;
+	}
+	&_light {
+		color: $color-grey-light;
+	}
 }
 
 input[type='submit'] {
@@ -286,8 +344,8 @@ input[type='submit'] {
 	cursor: pointer;
 }
 
-input[type='submit']:hover {
-	background-color: $color-primary;
-	box-shadow: 0 1rem 1rem rgba(0, 115, 168, 0.24), 0 0 1rem rgba(0, 115, 168, 0.12);
-	transition: all 0.5s ease-out;
-}
+// input[type='submit']:hover {
+// 	background-color: $color-primary;
+// 	box-shadow: 0 1rem 1rem rgba(0, 115, 168, 0.24), 0 0 1rem rgba(0, 115, 168, 0.12);
+// 	transition: all 0.5s ease-out;
+// }

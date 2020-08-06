@@ -1,0 +1,27 @@
+// Section Features styles
+
+.lnd-features {
+	display: flex;
+	// flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 14rem;
+	padding-bottom: 14rem;
+
+	&__item {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&__icon {
+		margin-bottom: 2.5rem;
+	}
+
+	&__item-heading {
+		@extend %heading_level_4;
+		@extend %heading_dark;
+		// width: 100%;
+		margin-bottom: 2.5rem;
+		text-align: center;
+	}
+}

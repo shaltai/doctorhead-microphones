@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-warrany_fill</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom_Microphones_1440-Home" transform="translate(-260.000000, -3046.000000)">
+            <g id="icon-warrany_fill" transform="translate(260.000000, 3046.000000)">
+                <polygon id="Path" fill-rule="nonzero" points="120 0 0 0 0 120 120 120"></polygon>
+                <path d="M57.585,0.2385 L14.056,11.0805 C12.261,11.5275 11,13.1395 11,14.9895 L11,59.4145 C11,79.8045 21.637,98.6075 38.821,108.5945 L57.508,119.4545 C58.76,120.1815 60.305,120.1815 61.557,119.4545 L80.243,108.5945 C97.428,98.6075 108.064,79.8045 108.064,59.4145 L108.064,14.9895 C108.064,13.1395 106.804,11.5275 105.009,11.0805 L61.48,0.2385 C60.201,-0.0795 58.863,-0.0795 57.585,0.2385" id="Fill-1" fill="#00AEFF"></path>
+                <polyline id="Stroke-9" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" points="85.618 44 53.356 76.092 34 56.837"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

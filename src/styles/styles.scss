@@ -46,6 +46,7 @@ ul {
 }
 
 img {
+	display: flex;
 	max-width: 100%;
 	height: auto;
 }
@@ -53,16 +54,6 @@ img {
 .lnd-container {
 	max-width: 1170px;
 	margin: 0 auto;
-
-	// @media (max-width: 768px) {
-	// 	max-width: 768px;
-	// 	margin: 0 auto;
-	// }
-
-	// @media (max-width: 414px) {
-	// 	max-width: 414px;
-	// 	margin: 0 auto;
-	// }
 }
 
 .page-container > .box {
@@ -72,20 +63,15 @@ img {
 }
 
 @import 'hero';
+
 @import 'services';
 
-// @import 'catalog-top';
+@import 'description';
 
-// @import 'catalog-bot';
+@import 'features';
 
-// @import 'advantages';
+@import 'form-banner';
 
-// @import 'choice';
+@import 'testimonials';
 
-// @import 'consultation';
-
-// @import 'production';
-
-// @import 'achtung';
-
-// @import 'contacts';
+@import 'contacts';

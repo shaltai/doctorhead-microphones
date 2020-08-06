@@ -1,0 +1,106 @@
+// Section Contacts styles
+
+.lnd-contacts {
+	padding-top: 8rem;
+	padding-bottom: 14rem;
+	background-image: url(../img/texture-regular.min.jpg);
+
+	@media (max-width: 768px) {
+		padding-bottom: $module-pad;
+	}
+	@media (max-width: 414px) {
+		padding-bottom: 25vw;
+	}
+
+	&__container {
+		@extend .lnd-container;
+	}
+
+	&__heading {
+		@extend %heading_level_2;
+		@extend %heading_dark;
+		margin-bottom: 5rem;
+
+		@media (max-width: 768px) {
+			padding-left: $module-pad;
+			padding-right: 0;
+			margin-bottom: 7.5rem;
+		}
+		@media (max-width: 414px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+			margin-bottom: 5rem;
+		}
+	}
+
+	&__items {
+		display: flex;
+
+		@media (max-width: 768px) {
+			padding-right: 0;
+		}
+		@media (max-width: 414px) {
+			flex-wrap: wrap;
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+	}
+}
+
+.lnd-city {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	padding-right: 20rem;
+
+	@media (max-width: 414px) {
+		padding-top: 0;
+		width: 100%;
+	}
+
+	&__moscow {
+		@extend .lnd-city;
+		@media (max-width: 414px) {
+			margin-bottom: 5rem;
+			padding-left: 3.5rem;
+			padding-right: 0;
+		}
+	}
+
+	&__spb {
+		@extend .lnd-city;
+		@media (max-width: 414px) {
+			padding-left: 3.5rem;
+			padding-right: 0;
+		}
+	}
+
+	&__heading {
+		@extend %heading_level_3;
+		@extend %heading_dark;
+		margin-bottom: 2rem;
+	}
+
+	&__schedule {
+		@extend %text_regular;
+		@extend %text_dark;
+		margin-bottom: 2rem;
+	}
+
+	&__text {
+		@extend %text_dark;
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+		line-height: 1.667;
+		font-weight: 600;
+	}
+
+	&__phone,
+	&__whatsapp,
+	&__telegram {
+		@extend %text_dark;
+		font-weight: 600;
+		text-decoration: underline;
+	}
+}
