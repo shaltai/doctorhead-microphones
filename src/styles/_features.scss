@@ -6,11 +6,15 @@
 	justify-content: space-between;
 	padding-top: 14rem;
 	padding-bottom: 14rem;
+	background-color: white;
 
 	&__item {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		@media (max-width: 768px) {
+			width: 30vw;
+		}
 	}
 
 	&__icon {

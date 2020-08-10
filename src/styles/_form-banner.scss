@@ -8,12 +8,19 @@
 	background-image: url(../img/photo-banner-form.min.jpg);
 	background-image: -webkit-image-set(url(../img/photo-banner-form.min.jpg) 1x, url(../img/photo-banner-form@2x.min.jpg) 2x);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-position-x: center;
+	@media (max-width: 1024px) {
+		padding-left: 3rem;
+	}
 
 	&__info {
 		display: flex;
 		flex-wrap: wrap;
 		width: 50%;
+		@media (max-width: 1024px) {
+			width: 55%;
+		}
 	}
 
 	&__item {
@@ -45,20 +52,43 @@
 	&__inputs {
 		display: flex;
 		flex-wrap: wrap;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	&__label-phone {
+		width: 28rem;
+		margin-right: 3rem;
+		@media (max-width: 768px) {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 3rem;
+		}
 	}
 
 	&__phone {
 		@extend .lnd-input_light;
-		width: 28rem;
-		margin-right: 3rem;
 		&::placeholder {
 			color: $color-grey-light;
+		}
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+
+	&__submit {
+		margin-bottom: 2rem;
+		@media (max-width: 768px) {
+			width: 100%;
 		}
 	}
 
 	&__submit-button {
 		@extend %button_light;
-		margin-bottom: 2rem;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
 	}
 
 	&__personal-data {

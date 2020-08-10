@@ -19,6 +19,7 @@ html {
 
 main {
 	overflow: inherit;
+	background-image: url(../img/texture-regular.min.jpg);
 
 	@media (max-width: 1024px) {
 		overflow: hidden;
@@ -54,6 +55,9 @@ img {
 .lnd-container {
 	max-width: 1170px;
 	margin: 0 auto;
+	@media (max-width: 1024px) {
+		// max-width: calc(100% -3rem);
+	}
 }
 
 .page-container > .box {

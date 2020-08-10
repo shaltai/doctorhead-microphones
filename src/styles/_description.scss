@@ -1,6 +1,10 @@
 // Section Description styles
 
 .lnd-description {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	background-color: white;
+
 	&__top-row,
 	&__middle-row,
 	&__bottom-row {
@@ -12,6 +16,9 @@
 	&__top-row,
 	&__middle-row {
 		margin-bottom: 8rem;
+		@media (max-width: 768px) {
+			margin-bottom: 4rem;
+		}
 	}
 
 	&__top-info,
@@ -19,15 +26,31 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-content: center;
-		width: 50%;
+		width: 49%;
+	}
+
+	&__top-info,
+	&__bottom-info {
+		padding-right: 6rem;
+		padding-left: 6rem;
 	}
 
 	&__top-info {
-		padding-right: 12rem;
+		@media (max-width: 768px) {
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+			margin-bottom: 5rem;
+		}
 	}
 
 	&__bottom-info {
-		padding-left: 12rem;
+		@media (max-width: 768px) {
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+			margin-top: 5rem;
+		}
 	}
 
 	&__heading {
@@ -39,5 +62,23 @@
 	&__text {
 		@extend %text_regular;
 		@extend %text_dark;
+	}
+
+	&__image_big {
+		@media (max-width: 1024px) {
+			width: 50rem;
+		}
+		@media (max-width: 768px) {
+			width: 100vw;
+		}
+	}
+
+	&__image_medium {
+		@media (max-width: 1024px) {
+			width: 32rem;
+		}
+		@media (max-width: 768px) {
+			width: 31vw;
+		}
 	}
 }

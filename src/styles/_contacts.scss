@@ -3,13 +3,9 @@
 .lnd-contacts {
 	padding-top: 8rem;
 	padding-bottom: 14rem;
-	background-image: url(../img/texture-regular.min.jpg);
-
-	@media (max-width: 768px) {
-		padding-bottom: $module-pad;
-	}
-	@media (max-width: 414px) {
-		padding-bottom: 25vw;
+	@media (max-width: 1024px) {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
 	}
 
 	&__container {
@@ -22,14 +18,14 @@
 		margin-bottom: 5rem;
 
 		@media (max-width: 768px) {
-			padding-left: $module-pad;
-			padding-right: 0;
-			margin-bottom: 7.5rem;
+			// padding-left: $module-pad;
+			// padding-right: 0;
+			// margin-bottom: 7.5rem;
 		}
 		@media (max-width: 414px) {
-			padding-left: 1.5rem;
-			padding-right: 1.5rem;
-			margin-bottom: 5rem;
+			// padding-left: 1.5rem;
+			// padding-right: 1.5rem;
+			// margin-bottom: 5rem;
 		}
 	}
 
@@ -54,6 +50,9 @@
 	width: 50%;
 	padding-right: 20rem;
 
+	@media (max-width: 768px) {
+		padding-right: 5rem;
+	}
 	@media (max-width: 414px) {
 		padding-top: 0;
 		width: 100%;
