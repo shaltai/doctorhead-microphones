@@ -66,19 +66,33 @@
 
 	&__image_big {
 		@media (max-width: 1024px) {
-			width: 50rem;
+			width: 49rem;
 		}
 		@media (max-width: 768px) {
 			width: 100vw;
 		}
 	}
 
-	&__image_medium {
+	%image_medium {
 		@media (max-width: 1024px) {
-			width: 32rem;
+			width: 31rem;
 		}
 		@media (max-width: 768px) {
 			width: 31vw;
 		}
+		@media (max-width: 414px) {
+			width: 100vw;
+		}
+	}
+
+	&__swarovsky,
+	&__sure_white,
+	&__violet_blue {
+		@extend %image_medium;
+	}
+
+	&__swarovsky,
+	&__sure_white {
+		margin-bottom: 4rem;
 	}
 }

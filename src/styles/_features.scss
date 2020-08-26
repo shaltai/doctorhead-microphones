@@ -2,18 +2,33 @@
 
 .lnd-features {
 	display: flex;
-	// flex-wrap: wrap;
 	justify-content: space-between;
 	padding-top: 14rem;
 	padding-bottom: 14rem;
 	background-color: white;
 
+	@media (max-width: 414px) {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
 	&__item {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+
 		@media (max-width: 768px) {
-			width: 30vw;
+			width: 30%;
+		}
+		@media (max-width: 414px) {
+			width: 75%;
+		}
+	}
+
+	&__warranty,
+	&__calendar {
+		@media (max-width: 414px) {
+			margin-bottom: 10rem;
 		}
 	}
 
@@ -24,8 +39,7 @@
 	&__item-heading {
 		@extend %heading_level_4;
 		@extend %heading_dark;
-		// width: 100%;
-		margin-bottom: 2.5rem;
+		// margin-bottom: 2.5rem;
 		text-align: center;
 	}
 }

@@ -27,6 +27,22 @@ $radius: 0.3rem;
 		font-size: 6rem;
 		letter-spacing: -0.1rem;
 		hyphens: none;
+
+		@media (max-width: 736px) {
+			font-size: 4.5rem;
+		}
+		@media (max-width: 667px) {
+			font-size: 4.1rem;
+		}
+		@media (max-width: 414px) {
+			font-size: 3.9rem;
+		}
+		@media (max-width: 375px) {
+			font-size: 3.5rem;
+		}
+		@media (max-width: 320px) {
+			font-size: 3.2rem;
+		}
 	}
 
 	&_level_2 {
@@ -35,6 +51,9 @@ $radius: 0.3rem;
 		letter-spacing: -0.07rem;
 		hyphens: none;
 
+		@media (max-width: 736px) {
+			font-size: 4.2rem;
+		}
 		@media (max-width: 414px) {
 			font-size: 4rem;
 		}
@@ -51,8 +70,11 @@ $radius: 0.3rem;
 		font-size: 3rem;
 		letter-spacing: -0.05rem;
 
+		@media (max-width: 736px) {
+			font-size: 2.8rem;
+		}
 		@media (max-width: 414px) {
-			font-size: 2.7rem;
+			font-size: 2.6rem;
 		}
 		@media (max-width: 375px) {
 			font-size: 2.4rem;
@@ -66,6 +88,19 @@ $radius: 0.3rem;
 		@extend %heading;
 		font-size: 2.5rem;
 		letter-spacing: -0.03rem;
+
+		@media (max-width: 768px) {
+			font-size: 2.1rem;
+		}
+		@media (max-width: 414px) {
+			font-size: 1.9rem;
+		}
+		@media (max-width: 375px) {
+			font-size: 1.7rem;
+		}
+		@media (max-width: 320px) {
+			font-size: 1.5rem;
+		}
 	}
 
 	&_light {
@@ -95,8 +130,11 @@ $radius: 0.3rem;
 		font-size: 1.5rem;
 		line-height: 1.667;
 
-		@media (max-width: 320px) {
+		@media (max-width: 375px) {
 			font-size: 1.3rem;
+		}
+		@media (max-width: 320px) {
+			font-size: 1.2rem;
 		}
 	}
 
@@ -105,8 +143,14 @@ $radius: 0.3rem;
 		font-size: 2rem;
 		line-height: 1.5;
 
-		@media (max-width: 320px) {
+		@media (max-width: 414px) {
+			font-size: 1.7rem;
+		}
+		@media (max-width: 375px) {
 			font-size: 1.5rem;
+		}
+		@media (max-width: 320px) {
+			font-size: 1.3rem;
 		}
 	}
 
@@ -130,21 +174,41 @@ $radius: 0.3rem;
 	&_size_xl {
 		@extend %overtitle;
 		font-size: 1.8rem;
+
+		@media (max-width: 414px) {
+			font-size: 1.5rem;
+		}
 	}
 
 	&_size_l {
 		@extend %overtitle;
 		font-size: 1.5rem;
+
+		@media (max-width: 414px) {
+			font-size: 1.2rem;
+		}
+
+		@media (max-width: 320px) {
+			font-size: 1rem;
+		}
 	}
 
 	&_size_m {
 		@extend %overtitle;
 		font-size: 1.2rem;
+
+		@media (max-width: 414px) {
+			font-size: 1rem;
+		}
 	}
 
 	&_size_s {
 		@extend %overtitle;
 		font-size: 1rem;
+
+		@media (max-width: 414px) {
+			font-size: 0.8rem;
+		}
 	}
 
 	&_dark {

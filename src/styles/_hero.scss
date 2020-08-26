@@ -12,8 +12,38 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: center;
+
 	@media (max-width: 768px) {
 		background-position-x: 85%;
+	}
+	@media (max-width: 736px) {
+		padding-top: 8rem;
+		padding-right: 3rem;
+		padding-bottom: 7rem;
+		padding-left: 3rem;
+		background-position-x: 92%;
+	}
+	@media (max-width: 414px) {
+		flex-wrap: wrap;
+		padding-top: 14rem;
+		padding-right: 3rem;
+		padding-bottom: 7rem;
+		padding-left: 3rem;
+		background-position-x: 92%;
+	}
+	@media (max-width: 375px) {
+		padding-top: 12rem;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+		padding-bottom: 1.5rem;
+		background-position-x: 89%;
+	}
+	@media (max-width: 320px) {
+		padding-top: 10rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		padding-bottom: 1.5rem;
+		background-position-x: 89%;
 	}
 
 	&__banner {
@@ -24,6 +54,18 @@
 		@media (max-width: 768px) {
 			padding-right: 3rem;
 		}
+		@media (max-width: 414px) {
+			margin-bottom: 10rem;
+			padding-right: 0;
+		}
+		@media (max-width: 375px) {
+			margin-bottom: 7rem;
+			padding-right: 0;
+		}
+		@media (max-width: 320px) {
+			margin-bottom: 5rem;
+			padding-right: 0;
+		}
 	}
 
 	&__social {
@@ -32,6 +74,13 @@
 		flex-direction: column;
 		justify-content: space-between;
 		height: 12rem;
+
+		@media (max-width: 414px) {
+			flex-direction: row;
+			width: 12rem;
+			height: auto;
+			margin-left: auto;
+		}
 	}
 
 	&__overtitle {
@@ -51,14 +100,19 @@
 		@extend %text_light;
 		width: 50%;
 		margin-bottom: 5rem;
+
 		@media (max-width: 768px) {
 			width: 100%;
+		}
+		@media (max-width: 320px) {
+			margin-bottom: 3rem;
 		}
 	}
 
 	// Hero form
 	&__form {
 		width: 27.5rem;
+
 		@media (max-width: 768px) {
 			width: 100%;
 		}
@@ -79,7 +133,12 @@
 		margin-bottom: 2rem;
 	}
 
-	&__personal-data {
+	&__personal-data,
+	&__link {
 		@extend %text_light;
+	}
+
+	&__link {
+		text-decoration: underline;
 	}
 }

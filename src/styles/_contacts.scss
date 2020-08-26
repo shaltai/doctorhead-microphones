@@ -37,8 +37,6 @@
 		}
 		@media (max-width: 414px) {
 			flex-wrap: wrap;
-			padding-left: 1.5rem;
-			padding-right: 1.5rem;
 		}
 	}
 }
@@ -62,7 +60,6 @@
 		@extend .lnd-city;
 		@media (max-width: 414px) {
 			margin-bottom: 5rem;
-			padding-left: 3.5rem;
 			padding-right: 0;
 		}
 	}
@@ -70,7 +67,6 @@
 	&__spb {
 		@extend .lnd-city;
 		@media (max-width: 414px) {
-			padding-left: 3.5rem;
 			padding-right: 0;
 		}
 	}

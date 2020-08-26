@@ -48,6 +48,9 @@
 			width: 30%;
 			margin-bottom: 5rem;
 		}
+		@media (max-width: 414px) {
+			width: 70%;
+		}
 	}
 
 	&__icon {
@@ -56,11 +59,13 @@
 
 	&__item-heading {
 		@extend %heading_dark;
-		@extend %heading_level_3;
+		@extend %heading_level_4;
 		margin-bottom: 1rem;
-		font-size: 2rem;
 		text-align: center;
 		hyphens: none;
+		@media (max-width: 1024px) {
+			font-size: 2.1rem;
+		}
 	}
 
 	&__item-link {

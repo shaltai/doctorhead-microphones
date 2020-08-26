@@ -6,6 +6,10 @@
 	padding-bottom: 14rem;
 	justify-content: space-evenly;
 	background-color: white;
+
+	@media (max-width: 414px) {
+		flex-wrap: wrap;
+	}
 }
 
 // Testimonial card
@@ -19,13 +23,22 @@
 	padding-left: 2rem;
 	border-radius: 0.5rem;
 	background-color: $color-grey-lightest;
-	@media (max-width: 768px) {
-		width: 40%;
-	}
 	&:last-of-type {
 		@media (max-width: 768px) {
 			display: none;
 		}
+	}
+	&:first-of-type {
+		@media (max-width: 414px) {
+			margin-bottom: 15rem;
+		}
+	}
+
+	@media (max-width: 768px) {
+		width: 40%;
+	}
+	@media (max-width: 414px) {
+		width: 80%;
 	}
 
 	&__header {
